@@ -1,0 +1,28 @@
+included:
+  - Joyflow
+  - JoyflowKit
+excluded:
+  - .derivedData
+  - .build
+  - JoyflowKit/.build
+  - Joyflow.xcodeproj
+trailing_comma:
+  mandatory_comma: true
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+  - identifier_name
+  - type_body_length
+  - file_length
+  - function_body_length
+  - cyclomatic_complexity
+  - nesting
+  - function_parameter_count
+  - large_tuple
+  - force_try
+  - shorthand_operator
+  - opening_brace
+  - trailing_newline
+opt_in_rules:
+  - empty_count
+reporter: xcode

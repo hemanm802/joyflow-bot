@@ -1,0 +1,13 @@
+.derivedData/
+.derivedData-ios/
+.build/
+/build/
+/dist/
+JoyflowKit/.build/
+Joyflow.xcodeproj/
+xcuserdata/
+*.xcuserstate
+.env
+.DS_Store
+.supergoal/
+sparkle_private.key
