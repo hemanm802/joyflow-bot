@@ -1,6 +1,6 @@
 # Contributing
 
-You need macOS 26+, a full Xcode (26+), [XcodeGen](https://github.com/yonaskolb/XcodeGen), SwiftLint, and swift-format. The iOS target deploys to iOS 18+.
+You need macOS 26+, a full Xcode (26+), [XcodeGen](https://github.com/yonaskolb/XcodeGen), SwiftLint, and swift-format. The iOS target (coming-soon companion) deploys to iOS 18+.
 
 ```bash
 git clone https://github.com/robzilla1738/joyflow-bot.git

@@ -10,10 +10,13 @@ Chat is the interface. The product is the project on disk: a `SOUL.md`, standing
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 <p>
-  <img src="docs/screenshots/empty-dark.png" alt="Joyflow workspace in dark mode" width="720" />
+  <img src="docs/screenshots/workspace-chat.jpg" alt="Joyflow workspace: a project chat that just read Gmail and listed the latest spam-looking mail" width="720" />
 </p>
 <p>
-  <img src="docs/screenshots/empty-light.png" alt="Joyflow workspace in light mode" width="720" />
+  <img src="docs/screenshots/account-menu.jpg" alt="Account menu: appearance, permissions, pair, settings, plugins, about" width="720" />
+</p>
+<p>
+  <img src="docs/screenshots/chats-and-model.jpg" alt="Recent chats plus the model and computer picker (this Mac or a cloud sandbox)" width="720" />
 </p>
 
 ## What you get
@@ -22,7 +25,7 @@ Pick a folder (or make a new one). Talk to any [Vercel AI Gateway](https://verce
 
 Projects stay on this Mac under Application Support, or in a folder you chose. There is no account. API keys live in Keychain.
 
-The iPhone app is a companion, not a second brain. Pair it and chats run on the Mac. Same projects, same threads.
+The Mac app is what ships today. An **iPhone companion is coming soon** — same projects, chats that still run on the Mac.
 
 Joyflow is independent. It is not affiliated with SpaceXAI, Cursor, Vercel, or Composio.
 
@@ -36,13 +39,9 @@ On first launch, macOS may still ask for Accessibility, Files and Folders, or Fu
 
 In Settings → General, paste a Gateway (or any OpenAI-compatible) API key and a model id such as `openai/gpt-4.1`.
 
-## Pair an iPhone
+## iPhone, coming soon
 
-1. On the Mac: account menu → **Pair iPhone…**
-2. Copy the link or scan the QR.
-3. On the phone: **Pair desktop** → **Paste and pair**.
-
-The link works on the same Wi-Fi. Off-network it uses an encrypted mailbox (`ntfy.sh` + AES-GCM). Install `cloudflared` on the Mac if you want a live HTTPS tunnel too. Details: [docs/pair.md](docs/pair.md).
+A native iPhone app is in the tree and will ship as a companion, not a second brain. Pairing, off-network mailbox, and phone-to-Mac chats are built; a public iPhone build is not out yet. The notes for when it is: [docs/pair.md](docs/pair.md).
 
 ## Permissions, honestly
 
@@ -56,7 +55,7 @@ Ask first is the default. Always allow is a preference, not a jailbreak. `/Syste
 
 ## Build from source
 
-You need macOS 26+, a full **Xcode** (26+), [XcodeGen](https://github.com/yonaskolb/XcodeGen), SwiftLint, and swift-format. The iPhone target is iOS 18+.
+You need macOS 26+, a full **Xcode** (26+), [XcodeGen](https://github.com/yonaskolb/XcodeGen), SwiftLint, and swift-format. An iOS 18 target is in the repo for the coming iPhone companion.
 
 ```bash
 git clone https://github.com/robzilla1738/joyflow-bot.git
@@ -79,7 +78,7 @@ scripts/package-dmg.sh
 open dist/Joyflow.dmg
 ```
 
-Device install: `DEVELOPMENT_TEAM=YOURTEAMID DEVICE=1 scripts/build-ios.sh`.
+The iPhone app is not a public release yet. If you are working on it: `DEVELOPMENT_TEAM=YOURTEAMID DEVICE=1 scripts/build-ios.sh`.
 
 Signed, notarized release (needs Developer ID + a `notarytool` keychain profile):
 
@@ -95,7 +94,7 @@ See [docs/updates.md](docs/updates.md) for Sparkle keys and the appcast.
 
 ```
 Joyflow/          Mac SwiftUI app
-JoyflowiOS/       iPhone SwiftUI app (same tokens, marks, kit)
+JoyflowiOS/       iPhone SwiftUI app (coming soon; same tokens, marks, kit)
 JoyflowKit/       Engine (filesystem wiki, pair/handoff, gateway, policy, sandboxes)
 docs/             Architecture, pairing, updates, screenshots
 scripts/          test, lint, build, package, notarize

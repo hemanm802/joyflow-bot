@@ -1,6 +1,6 @@
 # Architecture
 
-Joyflow is a native SwiftUI Mac app plus a native iPhone app. The engine lives in `JoyflowKit` and is UI-free.
+Joyflow is a native SwiftUI Mac app. A native iPhone companion is coming soon. The engine lives in `JoyflowKit` and is UI-free.
 
 ```
 Joyflow / JoyflowiOS (SwiftUI)  →  JoyflowKit  →  AI Gateway / Composio / local / cloud
