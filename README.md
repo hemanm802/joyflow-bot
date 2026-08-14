@@ -1,13 +1,22 @@
-# Joyflow
-
-A Mac teammate that lives in folders you keep.
+<div align="center">
+  <img src="docs/brand/logo.png" alt="Joyflow" width="128" />
+  <h1>Joyflow</h1>
+  <p>A Mac teammate that lives in folders you keep.</p>
+  <p>
+    <a href="https://github.com/robzilla1738/joyflow-bot/releases/latest"><strong>Download</strong></a>
+    ·
+    <a href="https://buymeacoffee.com/robcourson"><strong>Buy me a coffee</strong></a>
+  </p>
+  <p>
+    <a href="https://github.com/robzilla1738/joyflow-bot/releases/latest"><img src="https://img.shields.io/github/v/release/robzilla1738/joyflow-bot?label=release" alt="Latest release" /></a>
+    <a href="https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml"><img src="https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+    <img src="https://img.shields.io/badge/macOS-26%2B-black" alt="macOS 26+" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" /></a>
+    <a href="https://buymeacoffee.com/robcourson"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-robcourson-FFDD00?logo=buymeacoffee&logoColor=black" alt="Buy me a coffee" /></a>
+  </p>
+</div>
 
 Chat is the interface. The product is the project on disk: a `SOUL.md`, standing notes, files you attach, and a workspace the model is allowed to touch after you say yes.
-
-[Download the Mac app](https://github.com/robzilla1738/joyflow-bot/releases/latest) · [Buy me a coffee](https://buymeacoffee.com/robcourson)
-
-[![CI](https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 <p>
   <img src="docs/screenshots/workspace-chat.jpg" alt="Joyflow workspace: a project chat that just read Gmail and listed the latest spam-looking mail" width="720" />
