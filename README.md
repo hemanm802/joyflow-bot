@@ -46,7 +46,7 @@ Builds are Developer ID signed and notarized. Sparkle checks GitHub Releases for
 
 On first launch, macOS may still ask for Accessibility, Files and Folders, or Full Disk Access depending on what you tell it to do. Those are system prompts, not Joyflow accounts.
 
-In Settings → General, paste a Gateway (or any OpenAI-compatible) API key and a model id such as `openai/gpt-4.1`.
+In Settings → General, paste a Gateway (or any OpenAI-compatible) API key and a model id such as `xai/grok-4.6`.
 
 ## iPhone, coming soon
 
