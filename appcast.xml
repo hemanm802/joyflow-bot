@@ -8,19 +8,19 @@
     <description>Most recent updates to Joyflow</description>
     <language>en</language>
     <item>
-      <title>1.0.0</title>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <title>1.0.1</title>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 14 Aug 2026 17:08:48 +0000</pubDate>
+      <pubDate>Fri, 14 Aug 2026 17:21:55 +0000</pubDate>
       <description><![CDATA[
-        <p>First public Mac build. Native workspace, iPhone pair, ask-first computer tools, Sparkle updates.</p>
+        <p>Joyflow 1.0.1. Default model is xai/grok-4.6. iPhone companion still coming soon.</p>
         <p>Notes: https://github.com/robzilla1738/joyflow-bot/blob/main/CHANGELOG.md</p>
       ]]></description>
       <enclosure
-        url="https://github.com/robzilla1738/joyflow-bot/releases/download/v1.0.0/Joyflow.dmg"
-        sparkle:edSignature="vyh6AcSUUXYs9m/thO4dUulkZQExtDqPAqXMwLgNbzF03PpzjpkpBrjYI67qaaUpqLNN7mOhA5TfBV1UNOjMDw=="
-        length="6519811"
+        url="https://github.com/robzilla1738/joyflow-bot/releases/download/v1.0.1/Joyflow.dmg"
+        sparkle:edSignature="0uYrBuPH8o9Y1v2zoxtByT2bPSvD+tkCzsIwjdkOUbEA+3DTBSbu3IsDaOpg/HQfJ3r6iTAQXrWNZ7llKkycAw=="
+        length="6519689"
         type="application/octet-stream" />
     </item>
   </channel>
