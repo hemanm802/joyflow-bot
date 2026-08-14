@@ -17,7 +17,7 @@ fi
 ZIP="$ROOT/build/Joyflow.zip"
 mkdir -p "$ROOT/build"
 rm -f "$ZIP"
-echo "▸ Zipping $APP…"
+echo "▸ Zipping ${APP} ..."
 ditto -c -k --keepParent "$APP" "$ZIP"
 
 echo "▸ Submitting app to Apple notary (profile: $PROFILE)…"
