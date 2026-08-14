@@ -7,7 +7,7 @@ Chat is the interface. The product is the project on disk: a `SOUL.md`, standing
 [Download the Mac app](https://github.com/robzilla1738/joyflow-bot/releases/latest) · [Buy me a coffee](https://buymeacoffee.com/robcourson)
 
 [![CI](https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/robzilla1738/joyflow-bot/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 <p>
   <img src="docs/screenshots/workspace-chat.jpg" alt="Joyflow workspace: a project chat that just read Gmail and listed the latest spam-looking mail" width="720" />
@@ -104,10 +104,10 @@ Project folders on disk are documented in [docs/layout.md](docs/layout.md). How 
 
 ## Support
 
-This is free, Apache-2.0 software I maintain in public. If it saves you an evening, [buy me a coffee](https://buymeacoffee.com/robcourson).
+This is free, MIT-licensed software I maintain in public. If it saves you an evening, [buy me a coffee](https://buymeacoffee.com/robcourson).
 
 Bugs and ideas go in [GitHub Issues](https://github.com/robzilla1738/joyflow-bot/issues). Do not put API keys in tickets.
 
 ## License
 
-Apache-2.0. See [LICENSE](LICENSE).
+MIT. See [LICENSE](LICENSE).
