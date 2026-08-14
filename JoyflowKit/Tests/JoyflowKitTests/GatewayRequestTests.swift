@@ -6,7 +6,7 @@ import Testing
 struct GatewayRequestTests {
     @Test func defaultBaseURL() {
         #expect(JoyflowKit.defaultGatewayURL == "https://ai-gateway.vercel.sh/v1")
-        let client = GatewayClient(apiKey: "k", model: "openai/gpt-4.1")
+        let client = GatewayClient(apiKey: "k", model: JoyflowKit.defaultModelID)
         #expect(client.completionsURL()?.absoluteString == "https://ai-gateway.vercel.sh/v1/chat/completions")
     }
 
@@ -63,10 +63,10 @@ struct GatewayRequestTests {
         let root = FileManager.default.temporaryDirectory.appendingPathComponent("joyflow-ep-\(UUID().uuidString)")
         defer { try? FileManager.default.removeItem(at: root) }
         let store = EndpointStore(rootURL: root)
-        try store.save([ModelEndpoint(name: "Default", modelID: "openai/gpt-4.1")])
+        try store.save([ModelEndpoint(name: "Default", modelID: JoyflowKit.defaultModelID)])
         let raw = try String(contentsOf: store.fileURL, encoding: .utf8)
         #expect(!raw.contains("sk-"))
         #expect(!raw.lowercased().contains("apiKey"))
-        #expect(try store.load().first?.modelID == "openai/gpt-4.1")
+        #expect(try store.load().first?.modelID == JoyflowKit.defaultModelID)
     }
 }

@@ -5,8 +5,8 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
 DMG="${DMG:-$ROOT/dist/Joyflow.dmg}"
-VERSION="${VERSION:-1.0.0}"
-BUILD="${BUILD:-5}"
+VERSION="${VERSION:-1.0.1}"
+BUILD="${BUILD:-6}"
 TAG="${TAG:-v$VERSION}"
 REPO="${REPO:-robzilla1738/joyflow-bot}"
 
@@ -69,7 +69,7 @@ cat > "$ROOT/appcast.xml" <<XML
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <pubDate>${PUB_DATE}</pubDate>
       <description><![CDATA[
-        <p>First public Mac build. Native workspace, iPhone pair, ask-first computer tools, Sparkle updates.</p>
+        <p>Joyflow ${VERSION}. Default model is xai/grok-4.6. iPhone companion still coming soon.</p>
         <p>Notes: https://github.com/${REPO}/blob/main/CHANGELOG.md</p>
       ]]></description>
       <enclosure

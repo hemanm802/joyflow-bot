@@ -586,7 +586,7 @@ final class AppModel {
     }
 
     func addEndpoint() {
-        let endpoint = ModelEndpoint(name: "Gateway", modelID: "openai/gpt-4.1")
+        let endpoint = ModelEndpoint(name: "Gateway", modelID: JoyflowKit.defaultModelID)
         endpoints.append(endpoint)
         if activeEndpointID == nil { activeEndpointID = endpoint.id }
         saveEndpoints()

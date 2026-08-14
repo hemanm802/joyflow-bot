@@ -10,6 +10,7 @@ struct JoyflowKitTests {
         #expect(JoyflowKit.urlScheme == "joyflow")
         #expect(JoyflowKit.applicationSupportFolder == "Joyflow")
         #expect(JoyflowKit.defaultGatewayURL == "https://ai-gateway.vercel.sh/v1")
+        #expect(JoyflowKit.defaultModelID == "xai/grok-4.6")
     }
 
     @Test func migratesLegacySupportFolder() throws {

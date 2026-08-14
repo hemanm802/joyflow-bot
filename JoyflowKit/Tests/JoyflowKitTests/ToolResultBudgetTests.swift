@@ -64,7 +64,7 @@ struct ToolResultBudgetTests {
     @Test func nextTurnRequestStaysUnderModelWindow() throws {
         let raw = Self.gmailPayload(messages: 200, htmlChars: 12_000)
         let reduced = ToolResultBudget.reduce(raw)
-        let client = GatewayClient(apiKey: "k", model: "openai/gpt-4.1")
+        let client = GatewayClient(apiKey: "k", model: JoyflowKit.defaultModelID)
         let tools = ToolCatalog.definitions
 
         let bloated = try client.makeRequest(

@@ -120,7 +120,7 @@ private struct ModelsSettings: View {
         ForEach(app.endpoints) { endpoint in
             Section {
                 TextField("Display name", text: nameBinding(endpoint.id))
-                TextField("Model id", text: modelBinding(endpoint.id))
+                TextField(JoyflowKit.defaultModelID, text: modelBinding(endpoint.id))
                     .textInputAutocapitalization(.never)
                 TextField("Base URL", text: urlBinding(endpoint.id))
                     .textInputAutocapitalization(.never)

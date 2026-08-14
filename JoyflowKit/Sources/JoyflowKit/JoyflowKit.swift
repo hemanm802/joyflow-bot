@@ -5,6 +5,7 @@ public enum JoyflowKit {
     public static let bundleIdentifier = "dev.joyflow.Joyflow"
     public static let urlScheme = "joyflow"
     public static let defaultGatewayURL = "https://ai-gateway.vercel.sh/v1"
+    public static let defaultModelID = "xai/grok-4.6"
     public static let composioBaseURL = "https://backend.composio.dev/api/v3.1"
     public static let composioUserID = "joyflow-local"
     public static let e2bBaseURL = "https://api.e2b.app"

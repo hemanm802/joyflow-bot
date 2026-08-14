@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- New model fields default to `xai/grok-4.6`.
+
 ## 1.0.0
 
 First public Mac build.

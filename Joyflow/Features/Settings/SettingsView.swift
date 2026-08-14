@@ -325,7 +325,7 @@ struct ModelsPane: View {
                     SettingsSection(title: endpoint.name) {
                         SettingsField(title: "Display name", prompt: "Gateway", text: $endpoint.name)
                         SettingsDivider()
-                        SettingsField(title: "Model id", prompt: "openai/gpt-4.1", text: $endpoint.modelID)
+                        SettingsField(title: "Model id", prompt: JoyflowKit.defaultModelID, text: $endpoint.modelID)
                         SettingsDivider()
                         SettingsField(title: "Base URL", prompt: "https://…", text: $endpoint.baseURL)
                         SettingsDivider()
